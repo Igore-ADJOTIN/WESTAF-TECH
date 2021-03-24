@@ -1,0 +1,41 @@
+<div class="container">
+          <button type="button" class="action__btn action__btn-burgerMenu mr-30 d-none d-lg-block">
+            <i class="icon-nav"></i>
+          </button>
+          <a class="navbar-brand" href="/">
+           <img src="{{asset('assets/images/logo/logo2.jpg')}}" class="logo-light" alt="logo">
+            <img src="{{asset('assets/images/logo/logo2.jpg')}}" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav mr-auto ml-auto">
+              <li class="nav__item">
+                <a href="/Accueil" class="nav__item-link">Accueil</a>
+              </li>
+              <li class="nav__item">
+                <a href="/A-Propos" class="nav__item-link">Notre Agence</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{path('Service')}}" class="nav__item-link">Nos Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{path('Media')}}" class="nav__item-link">Nouvelle et Media</a>
+              </li>
+              <li class="nav__item">
+                <a href="/WESTAF-TECH/Contact" class="nav__item-link">Contact</a>
+              </li><!-- /.nav-item -->
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.navbar-collapse -->
+          <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
+            <li>
+              <button class="action__btn action__btn-login open-login-popup">
+                <i class="icon-user"></i><span>Carrière</span>
+              </button>
+            </li>
+            <li class="d-none d-xl-block">
+              <a href="request-quote.html" class="btn btn__primary btn__primary-style2 btn_ action__btn-contact" style="background-color: #0E2B5C">Demander Un Devis</a>
+            </li>
+          </ul><!-- /.navbar-actions -->
+        </div>

@@ -1,0 +1,98 @@
+   <div class="burger-menu">
+      <div class="burger-menu__content">
+        <button type="button" class="burger-menu__close"><i class="fas fa-times"></i></button>
+        <div class="burger-menu__header">
+          <img src="{{asset('assets/images/logo/logo2.jpg')}}" alt="logo" class="mb-30">
+          <p class="color-white">Nous sommes des professionnels expérimentés qui comprennent que les services informatiques évoluent et nous sommes de véritables partenaires soucieux de votre réussite future en affaires.</p>
+        </div><!-- /.burger-menu__header -->
+        <div class="contact-blocks-wrapper">
+          <div class="contact-block contact-block-light">
+            <h5 class="contact-block__title">Notre Adresse</h5>
+            <ul class="contact-block__list list-unstyled">
+              <li>Scat-Urbam / Liberté 6 / Dakar / Sénégal</li>
+            </ul>
+          </div><!-- /.contact-panel__info__block -->
+          <div class="contact-block contact-block-light">
+            <h5 class="contact-block__title">E-mail</h5>
+            <ul class="contact-block__list list-unstyled">
+              <li><a href="Westaftech1@gmail.com"></a>Email: Westaftech1@gmail.com</li>
+              
+            </ul>
+          </div><!-- /.contact-panel__info__block -->
+          <div class="contact-block contact-block-light">
+            <h5 class="contact-block__title">Heures D'ouverture</h5>
+            <ul class="contact-block__list list-unstyled">
+              <li>Lundi - Vendredi</li>
+              <li>08:00 H - 18:00 H</li>
+            </ul>
+          </div><!-- /.contact-panel__info__block -->
+          <ul class="social-icons list-unstyled mb-0 mt-20">
+            <li><a href="https://www.facebook.com/Westaf-Tech-100669951967560" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          </ul><!-- /.social-icons -->
+        </div><!-- /.contact-blocks-wrapper -->
+      </div><!-- /.burger-menu__content -->
+    </div><!-- /.burger-menu -->
+
+    <div class="login-popup" id="login-popup">
+      <div class="login-popup-wrapper">
+        <form class="login-popup__form">
+          <h3 class="login-popup__title">Login!</h3>
+          <p class="login-popup__desc">Connect, organize and get things done to keep your IT business safe.</p>
+          <div class="form-group mb-30">
+            <label>Email (required)</label>
+            <input type="text" class="form-control" placeholder="username">
+          </div>
+          <div class="form-group mb-20">
+            <label>Password (required)</label>
+            <input type="password" class="form-control" placeholder="password">
+          </div>
+          <div class="d-flex align-items-center justify-content-between mb-20">
+            <div class="custom-control custom-checkbox d-flex align-items-center">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" for="customCheck1">Remember Me!</label>
+            </div>
+            <a href="#" class="fz-14 font-weight-bold color-secondary">Forget Password?</a>
+          </div>
+          <button type="submit" class="btn btn__secondary btn__block">Login</button>
+        </form>
+        <div class="d-flex justify-content-center align-items-center mt-20">
+          <span class="color-white fz-14 font-weight-bold">Don’t Have An Account?</span>
+          <button id="go-register" class="go-register fz-14 font-weight-bold">
+            <span>Register Here</span><i class="icon-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div><!-- /.login-popup -->
+
+    <div class="login-popup" id="register-popup">
+      <div class="login-popup-wrapper">
+        <form class="login-popup__form">
+          <h3 class="login-popup__title">Register!</h3>
+          <p class="login-popup__desc">Connect, organize and get things done to keep your IT business safe.</p>
+          <div class="form-group mb-30">
+            <label>Email (required)</label>
+            <input type="text" class="form-control" placeholder="username">
+          </div>
+          <div class="form-group mb-20">
+            <label>Password (required)</label>
+            <input type="password" class="form-control" placeholder="password">
+          </div>
+          <div class="d-flex align-items-center justify-content-between mb-20">
+            <div class="custom-control custom-checkbox d-flex align-items-center">
+              <input type="checkbox" class="custom-control-input" id="customCheck2">
+              <label class="custom-control-label" for="customCheck2">I read & agree to <a href="#">Terms &
+                  Conditions</a></label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn__secondary btn__block">Register</button>
+        </form>
+        <div class="d-flex justify-content-center align-items-center mt-20">
+          <span class="color-white fz-14 font-weight-bold">Have An Account?</span>
+          <button id="go-login" class="go-login fz-14 font-weight-bold">
+            <span>Login Here</span><i class="icon-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div><!-- /.login-popup -->

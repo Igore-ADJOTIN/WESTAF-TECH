@@ -6,12 +6,15 @@
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style><section class="google-map py-0">
-      <div id="map" style="height: 500px;"></div>
-      <script src="{{asset('assets/js/google-map.js')}}"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-      <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
-    </section><!-- /.GoogleMap -->
+</style><section class="slider">
+      <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0"
+        data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
+    
+        <div class="slide-item align-v-h bg-overlay">
+          <div class="bg-img"><img src="{{asset('assets/images/contact/page-contact.png')}}" alt="WESTAF TECH Page de contact"></div>
+        </div><!-- /.slide-item -->
+      </div><!-- /.carousel -->
+    </section>
 
     <!-- ==========================
         contact layout 1
@@ -69,31 +72,29 @@
               </div><!-- /.row -->
             </form>
           </div><!-- /.col-lg-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
-            <div class="contact-panel__info bg-overlay bg-overlay-primary">
-              <div class="bg-img"><img src="assets/images/contact/1.jpg" alt="banner"></div>
+          <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1" style="background-color: #0E2B5C">
+            <div class="contact-panel__info bg-overlay bg-overlay-primary" style="background-color: #0E2B5C">
               <div class="contact-block">
-                <h5 class="contact-block__title">Our Location</h5>
+                <h5 class="contact-block__title">Notre Adresse</h5>
                 <ul class="contact-block__list list-unstyled">
-                  <li>2307 Beverley Rd Brooklyn, New York 11226 United States.</li>
+                  <li>Scat-Urbam / Liberté 6 / Dakar / Sénégal</li>
                 </ul>
               </div><!-- /.contact-panel__info__block -->
               <div class="contact-block">
-                <h5 class="contact-block__title">Quick Contact</h5>
+                <h5 class="contact-block__title"> Contact</h5>
                 <ul class="contact-block__list list-unstyled">
-                  <li><a href="mailto:Mintech@7oroof.com"></a>Email: Mintech@7oroof.com</li>
-                  <li><a href="mailto:Mintech@7oroof.com"></a>Support: Mintech@7oroof.com</li>
+                  <li><a href="mailto: westaftech1@gmail.com"></a>Email:  westaftech1@gmail.com</li>
                 </ul>
               </div><!-- /.contact-panel__info__block -->
               <div class="contact-block">
-                <h5 class="contact-block__title">Opening Hours</h5>
+                <h5 class="contact-block__title">Heures D'ouverture</h5>
                 <ul class="contact-block__list list-unstyled">
-                  <li>Monday - Friday</li>
-                  <li>09:00 AM - 06:00 PM</li>
+                  <li>Lundi - Vendredi</li>
+                  <li>08:00 H - 18:00 H</li>
                 </ul>
               </div><!-- /.contact-panel__info__block -->
               <a href="contacs.html" class="btn btn__white btn__bordered btn__icon btn__xl">
-                <span>Find Your Solution</span>
+                <span>Demander un Devis</span>
                 <i class="icon-arrow-right"></i>
               </a>
             </div>
@@ -111,17 +112,17 @@
           <!-- Contact panel #1 -->
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="contact-info-box">
-              <h4 class="contact__info-box-title">London Office</h4>
+              <h4 class="contact__info-box-title">Agence de Dakar</h4>
               <ul class="contact__info-list list-unstyled">
-                <li>Email: <a href="mailto:Mintech@7oroof.com">Mintech@7oroof.com</a></li>
-                <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
-                <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
-                <li>Hours: Mon-Fri: 8am – 7pm</li>
+                <li>Email: <a href="mailto:westaftech1@gmail.com">westaftech1@gmail.com</a></li>
+                <li>Address: Scat-Urbam / Liberté 6 / Dakar / Sénégal</li>
+                <li>Phone: <a href="tel:5565454117">+221 78 483 41 98 / +221 77 754 69 17</a></li>
+                <li>Hours: Lun-Ven: 8h – 18h</li>
               </ul><!-- /.contact__info-list -->
             </div><!-- /.contact-info-box -->
           </div><!-- /.col-lg-4 -->
           <!-- Contact panel #2 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
+          <!--div class="col-sm-12 col-md-4 col-lg-4">
             <div class="contact-info-box">
               <h4 class="contact__info-box-title">Berlin Office</h4>
               <ul class="contact__info-list list-unstyled">
@@ -129,11 +130,11 @@
                 <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
                 <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
-              </ul><!-- /.contact__info-list -->
-            </div><!-- /.contact-info-box -->
-          </div><!-- /.col-lg-4 -->
+              </ul>
+            </div>
+          </div--><!-- /.col-lg-4 -->
           <!-- Contact panel #3 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
+          <!--div class="col-sm-12 col-md-4 col-lg-4">
             <div class="contact-info-box">
               <h4 class="contact__info-box-title">Manchester Office</h4>
               <ul class="contact__info-list list-unstyled">
@@ -141,9 +142,9 @@
                 <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
                 <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
-              </ul><!-- /.contact__info-list -->
-            </div><!-- /.contact-info-box -->
-          </div><!-- /.col-lg-4 -->
+              </ul>
+            </div>
+          </div--><!-- /.col-lg-4 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section>
